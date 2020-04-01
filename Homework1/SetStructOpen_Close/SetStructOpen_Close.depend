@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1571230222 source:d:\course\opencv\1014\open&close\setstructopen&close\main.cpp
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
