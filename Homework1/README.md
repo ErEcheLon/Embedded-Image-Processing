@@ -45,7 +45,7 @@ Step 3. 進行Morphology 的 Open與Close，各做一百次，Kenrel由3*3至9*9
 
 
 #### Morphology with 3x3 Kernel 
-####Using Open Operation Running 10000 time
+Using Open Operation Running 10000 time
 
 | Kernel  | Threads |   Using AVX (s)   | Without AVX (s)  |
 | :---------: |:------: | :-----------------: | :------------------: |
