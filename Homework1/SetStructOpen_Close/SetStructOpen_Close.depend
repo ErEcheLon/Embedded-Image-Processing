@@ -6,3 +6,10 @@
 	<stdio.h>
 	<iostream>
 
+1585732679 source:c:\embedded-image-processing\homework1\setstructopen_close\main.cpp
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+

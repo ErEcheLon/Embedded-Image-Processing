@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1586138099 source:c:\embedded-image-processing\homework1\threads\main.cpp
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<thread>
+

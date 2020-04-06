@@ -44,7 +44,7 @@ int main(int atgc, char ** argv)
     cout<<"花費時間"<< time2 <<"秒"<<endl;*/
 
 	morphologyEx(dst, close, MORPH_CLOSE, kernel);
-    for(int i=0 ; i<999 ; i++)
+    for(int i=0 ; i<9999 ; i++)
     {
         morphologyEx(close, close, MORPH_CLOSE, kernel);
     }
