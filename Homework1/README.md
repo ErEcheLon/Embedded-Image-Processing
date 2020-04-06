@@ -1,13 +1,17 @@
 # 作業一 OpenCV與AVX
 
 Step 1. 任意影像做灰階
+
 Step 2. 將灰階圖進行Threshold，小於128為0、大於等於128為255
+
 Step 3. 進行Morphology 的 Open與Close，各做一百次，Kenrel由3*3至9*9記錄其執行速度。
 
 比對以下項目的差別：
 
 1.沒有使用AVX
+
 2.使用AVX
+
 3.查Multi Thread(Map & Reduce)加速
 
 ### 電腦規格
@@ -51,7 +55,7 @@ Step 3. 進行Morphology 的 Open與Close，各做一百次，Kenrel由3*3至9*9
 |     3x3     | 8 | 0.4101 | 7.3761 |
 
 #### Morphology with 3x3 Kernel 
-####Using Close Operation Running 10000 time
+Using Close Operation Running 10000 time
 
 | Kernel  | Threads |   Using AVX (s)   | Without AVX (s)  |
 | :---------: |:------: | :-----------------: | :------------------: |
@@ -61,7 +65,7 @@ Step 3. 進行Morphology 的 Open與Close，各做一百次，Kenrel由3*3至9*9
 |     3x3     | 8 | 0.4099 | 7.3906 |
 
 #### Morphology with 5x5 Kernel 
-####Using Open Operation Running 10000 time
+Using Open Operation Running 10000 time
 
 | Kernel  | Threads |   Using AVX (s)   | Without AVX (s)  |
 | :---------: |:------: | :-----------------: | :------------------: |
@@ -71,7 +75,7 @@ Step 3. 進行Morphology 的 Open與Close，各做一百次，Kenrel由3*3至9*9
 |     5x5     | 8 | 0.9773 | 9.03055 |
 
 #### Morphology with 5x5 Kernel 
-####Using Close Operation Running 10000 time
+Using Close Operation Running 10000 time
 
 | Kernel  | Threads |   Using AVX (s)   | Without AVX (s)  |
 | :---------: |:------: | :-----------------: | :------------------: |
@@ -81,7 +85,7 @@ Step 3. 進行Morphology 的 Open與Close，各做一百次，Kenrel由3*3至9*9
 |     5x5     | 8 | 1.0184 | 8.5820 |
 
 #### Morphology with 7x7 Kernel 
-####Using Open Operation Running 10000 time
+Using Open Operation Running 10000 time
 
 | Kernel  | Threads |   Using AVX (s)   | Without AVX (s)  |
 | :---------: |:------: | :-----------------: | :------------------: |
@@ -91,7 +95,7 @@ Step 3. 進行Morphology 的 Open與Close，各做一百次，Kenrel由3*3至9*9
 |     7x7     | 8 | 0.9881 | 12.6327 |
 
 #### Morphology with 7x7 Kernel 
-####Using Close Operation Running 10000 time
+Using Close Operation Running 10000 time
 
 | Kernel  | Threads |   Using AVX (s)   | Without AVX (s)  |
 | :---------: |:------: | :-----------------: | :------------------: |
@@ -101,7 +105,7 @@ Step 3. 進行Morphology 的 Open與Close，各做一百次，Kenrel由3*3至9*9
 |     7x7     | 8 | 1.2499 | 11.1699 |
 
 #### Morphology with 9x9 Kernel 
-####Using Open Operation Running 10000 time
+Using Open Operation Running 10000 time
 
 | Kernel  | Threads |   Using AVX (s)   | Without AVX (s)  |
 | :---------: |:------: | :-----------------: | :------------------: |
@@ -111,7 +115,7 @@ Step 3. 進行Morphology 的 Open與Close，各做一百次，Kenrel由3*3至9*9
 |     9x9     | 8 | 1.4716 | 17.2203 |
 
 #### Morphology with 9x9 Kernel 
-####Using Close Operation Running 10000 time
+Using Close Operation Running 10000 time
 
 | Kernel  | Threads |   Using AVX (s)   | Without AVX (s)  |
 | :---------: |:------: | :-----------------: | :------------------: |
